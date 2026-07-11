@@ -7,7 +7,7 @@
 
 namespace Prelude{
    namespace Core{
-      namespace Types{
+      namespace DataTypes{
          using Int64   = std::int64_t;
          using Int32   = std::int32_t;
          using Int16   = std::int16_t;
@@ -28,16 +28,17 @@ namespace Prelude{
          using Char32  = char32_t;
 
          template <typename T>
-         using SmartPointer  = std::unique_ptr<T>;
+         using UniquePointer  = std::unique_ptr<T>;
          template <typename T>
          using SharedPointer = std::shared_ptr<T>;
          template <typename T>
          using WeakPointer   = std::weak_ptr<T>;
 
          using Size   = std::size_t;
-      }
-   }
-}
+
+      }  //!DataTypes
+   }  //!Core
+}  //!Prelude
 
 
 #endif  //!DATA_TYPES_HPP
