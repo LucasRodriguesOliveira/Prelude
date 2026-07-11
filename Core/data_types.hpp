@@ -5,9 +5,9 @@
 #include <cstddef>  //std::size_t
 #include <memory>   //std::unique_ptr<>, std::shared_ptr<>, std::weak_ptr<>
 
-namespace Prelude{
-   namespace Core{
-      namespace DataTypes{
+namespace Prelude {
+   namespace Core {
+      namespace DataTypes {
          using Int64   = std::int64_t;
          using Int32   = std::int32_t;
          using Int16   = std::int16_t;
