@@ -3,7 +3,7 @@
 
 #include <cstdint>  //std::int64_t, std::int32_t...
 #include <cstddef>  //std::size_t
-#include <memory>   //std::unique_ptr<>, std::shared_ptr<>, std::weak_ptr<>
+#include <memory>   //std::unique_ptr<T>, std::shared_ptr<T>, std::weak_ptr<T>
 
 namespace Prelude {
    namespace Core {
